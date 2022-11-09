@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTS</title>
+    <script src="https://kit.fontawesome.com/9557ceb193.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IMG-20221021-WA0000.jpg">
+</head>
+<body>
+    
+<!-- ----------headdeerr------------ -->
+
+<section class="header">
+    <nav>
+        <a href=""> 
+            <img src="TS.png" alt="logo" style="background-color: rgba(255, 255, 255, 0.896); padding-right:5px;">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>
+            CONTACTS US
+        </h1>
+    </div>
+</section>
+
+
+
+<!-- ------Contacts------ -->
+<section class="contact-us">
+    <div class="row">
+<div class="contact-cl">
+<div>
+    <a href="https://www.google.com/maps/dir/8.0954235,5.0686553/532V%2B33P+Government+Secondary+School+Omu-aran,+Alakaka+Rd,+251103,+Omu-Aran/@8.0919547,5.1386312,11.74z/am=t/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x104821296ab8a55d:0xa48c8ea615ff4ba2!2m2!1d5.0927104!2d8.1502234" class="tooltip"> <i class="fa-solid fa-map-location-dot"></i> <span class="tooltiptext">Click to get Location</span> </a> 
+    <span> 
+    <h5><b>LOCATION:</b> Government Secondary School</h5>
+    <p>Omu-Aran, Kwara State, Nigeria</p>
+                </span>  
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+234 815 5106 011, +234 806 8746 276</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>   
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>wallclimbing1962@gmail.com</h5>
+                    <p>Email us your queries</p>
+                </span>   
+            </div>
+            <div>
+                <i class="fa fa-clock-o"></i>
+
+            <span>
+                    <h5>Mondays to Thurdays, 9am - 12pm prompt</h5>
+                </span>   
+            </div>
+        </div>
+<div class="contact-cl">
+<form action="mailto:wallclimbing1962@gmail.com" method="post" enctype="text/plain">
+    <label for="Fullname">Name:</label>
+    <input type="text" name="name" placeholder="Enter your fullname" required="">
+    <label for="email">Email:</label>
+    <input type="email" name="email" placeholder="Enter email address" required="">
+    <label for="subject">Enroll for:</label>
+    <input type="text" name="subject" placeholder="Enter your Course" required="">
+    <textarea rows="8" name="message" placeholder="Message" required=""></textarea>
+    <button type="submit" class="red-btn">send Message</button>
+</form>
+<div>     
+
+</div></div></div></section>
+
+
+<!-- --------footer------ -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore provident quidem debitis unde cum quibusdam repudiandae architecto <br> Veritatis atque molestiae ullam ipsum vitae, nobis eos cupiditate perspiciatis, accusantium voluptatum officia.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    
+    </section>
+
+    <div class="tofe">
+        Made by Mr. Niceguy &copy; 2022
+       </div>
+    
+
+
+
+<!-- JS Toggle MENU  -->
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu() {
+    navLinks.style.right ="0";
+}
+function hideMenu() {
+    navLinks.style.right ="-202px";
+}
+</script>
+
+
+
+
+</body>
+</html>
