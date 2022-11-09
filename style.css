@@ -247,9 +247,12 @@ label{
     }
      .contact-cl div h5{
         margin-bottom: 5px ;
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 400;
     } 
+    .contact-cl div p{
+        font-size: 14px;
+    }
     textarea {
         width: 80%;
     }
