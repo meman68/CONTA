@@ -245,6 +245,14 @@ label{
         display: flex;
         flex-direction: column;
     }
+     .contact-cl div h5{
+        margin-bottom: 5px ;
+        font-size: 18px;
+        font-weight: 400;
+    } 
+    textarea {
+        width: 80%;
+    }
 }
  
 /* --------Footer-------- */
